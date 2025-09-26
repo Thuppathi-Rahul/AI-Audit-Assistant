@@ -93,13 +93,13 @@ Follow these steps to get the application up and running locally.
     ```bash
     uvicorn irf_backend:app --reload
     ```
-    >> The backend will be running at `http://127.0.0.1:8000`.
+    The backend will be running at `http://127.0.0.1:8000`.
 
 * **Terminal 2: Start the Streamlit Frontend**
     ```bash
     streamlit run Home.py
     ```
-    >> The application will be running at `http://localhost:8501`.
+    The application will be running at `http://localhost:8501`.
 
 ## 📖 How to Use
 
