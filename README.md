@@ -41,11 +41,11 @@ This project was built to solve a critical business problem: manual audits are s
 
 The application is built on a modern, three-tier architecture to ensure a clear separation of concerns, making it scalable and maintainable.
 
->> **Frontend (Streamlit):** A multi-page Streamlit application serves as the user interface (`Home.py` + `pages/` directory).
+> **Frontend (Streamlit):** A multi-page Streamlit application serves as the user interface (`Home.py` + `pages/` directory).
 >>
->> **Backend (FastAPI):** A robust FastAPI server (`irf_backend.py`) acts as the central API, communicating with a SQLite database to manage all data.
+> **Backend (FastAPI):** A robust FastAPI server (`irf_backend.py`) acts as the central API, communicating with a SQLite database to manage all data.
 >>
->> **AI Core (LangChain):** The intelligence of the application, using an OpenAI model (`gpt-4-turbo`) and custom tools to perform its tasks.
+> **AI Core (LangChain):** The intelligence of the application, using an OpenAI model (`gpt-4-turbo`) and custom tools to perform its tasks.
 
 ## 🚀 Getting Started
 
